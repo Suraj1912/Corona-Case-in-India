@@ -10,7 +10,6 @@ def request(url):
     return r.text
 
 if __name__ == "__main__":
-    # Notify('Suraj', 'Hi')
 
     getHTML = request('https://www.mohfw.gov.in/')
 
